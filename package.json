@@ -1,5 +1,5 @@
 {
-  "name": "express-expeditious-custom",
+  "name": "express-expeditious-fork",
   "version": "5.1.1",
   "description": "express caching middlware with custom fix",
   "main": "lib/middleware.js",
