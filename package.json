@@ -1,7 +1,7 @@
 {
-  "name": "express-expeditious",
+  "name": "express-expeditious-custom",
   "version": "5.1.1",
-  "description": "express caching middlware",
+  "description": "express caching middlware with custom fix",
   "main": "lib/middleware.js",
   "files": [
     "lib/",
@@ -10,12 +10,8 @@
   "types": "express-expeditious.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/evanshortiss/express-expeditious.git"
+    "url": "https://github.com/thselukas/express-expeditious-custom"
   },
-  "bugs": {
-    "url": "https://github.com/evanshortiss/express-expeditious/issues"
-  },
-  "homepage": "https://github.com/evanshortiss/express-expeditious",
   "scripts": {
     "test": "npm run format && npm run unit && npm run coverage && npm run check-coverage",
     "format": "standard lib/**.js example/**.js benchmark/**.js test/**.js  --fix && npm run linelint",
